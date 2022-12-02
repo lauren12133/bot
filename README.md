@@ -1,0 +1,14 @@
+# bot
+
+docker run -it \
+    --name=miaogram \
+    --hostname=$(hostname) \
+    --restart=always \
+    -v /root/mybot1:/miaogram/data \
+    -e API_ID=*** \
+    -e API_HASH=*** \
+    idockmm/miaogram
+    
+    
+    
+    docker load -i ~/镜像名字
